@@ -1,0 +1,466 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ******** reset css end ********* */
+
+
+/* *********** general css start *********** */
+html{
+    margin: 0;
+}
+
+body {
+    font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #444;
+    text-rendering: optimizeLegibility;
+    background-color: #ffffff;
+}
+
+code, kbd, tt, var {
+    font: 14px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+a:link, a:visited {
+    color: #3a8bbb;
+    text-decoration: none;
+}
+
+a:active {
+    outline: none;
+}
+
+.clear {clear: both;}
+
+.background-white {
+    background-color: #fff;
+}
+
+.no-padding-left{padding-left: 0;}
+.no-padding-right{padding-right: 0;}
+
+.main-divider hr{
+    border: none;
+    border-top: 1px dotted #f00;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+}
+
+/* ******************* general css ends *********** */
+
+/*-----------------*/
+/* --- Navbar CSS ---*/
+/* ------------------- */
+
+.navbar-default {
+    background-color: #2f2f2f;
+    border-color: #2f2f2f;
+    border-radius: 0;
+}
+.navbar-default .navbar-brand {
+    color: #999999;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+.navbar-default .navbar-text {
+    color: #999999;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #999999;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+    background-color: #2f2f2f;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+    color: #999999;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: #2f2f2f;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
+    background-color: #2f2f2f;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #2f2f2f;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #2f2f2f;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #2f2f2f;
+}
+.navbar-default .navbar-toggle {
+    border-color: #2f2f2f;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #2f2f2f;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #999999;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #999999;
+}
+.navbar-default .navbar-link {
+    color: #999999;
+}
+.navbar-default .navbar-link:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #999999;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #ffffff;
+        background-color: #2f2f2f;
+    }
+}
+
+/* *********** navbar ends ********* */
+
+/* *************** main banner start ***** */
+
+.main-banner-wrap{
+    position: relative;
+}
+
+.main-banner-wrap .logo-wrap{
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+}
+
+.main-banner-wrap .logo-wrap .media-body h1.media-heading span{
+    color: #fff;
+    font-size: 32px;
+    display: block;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.main-banner-wrap .logo-wrap .media-body p{
+    float: right;
+    color: #fff;
+    margin-right: 5%;
+}
+
+.main-banner-wrap .logo-wrap .media-body hr{
+    border: none;
+    border-top: 1px dotted #fff;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 95%;
+    float: left;
+    margin-top: 0;
+}
+
+/* ********* main banner end ********** */
+
+/* ********* main caption start ******** */
+
+.main-caption{
+    margin: 40px 0px 40px 0px;
+}
+
+.main-caption h2{
+    font-size: 28px;
+}
+
+/* ********* main caption end ******** */
+
+/* ********* our tv channel section start *********** */
+
+.section-title h2{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.tv-channel-item p strong{
+    font-weight: bold;
+}
+
+.tv-channel-item img{
+    width: 80px;
+    float: left;
+    margin-right: 15px;
+}
+
+.tv-channel-item h4{
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.tv-channel-item h4 img{
+    width: 30px;
+    margin: 0;
+}
+
+.tv-channel-item p span img{
+    width: 30px;
+    margin: -7px 2px 0px 0px;
+}
+
+/* ********* our tv channel section end *********** */
+
+/* ********* partners logos start ********** */
+
+.partners-logos ul {
+    white-space: nowrap;
+    width: 100%;
+    display: table;
+}
+
+.partners-logos ul li{
+    /*
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    float: left;
+    */
+    vertical-align: middle;
+    padding: 13px;
+    display: table-cell;
+}
+
+.footer-text{
+    margin: 30px 0px 30px 0px;
+}
+
+.footer-text small{
+    font-size: 13px;
+}
+
+/* ********* partners logos end ********** */
+
+
+/* ************ tables start ************ */
+
+thead{
+    background-color: #d62526;
+    color: #fff;
+}
+
+table.dataTable.nowrap th, table.dataTable.nowrap td{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+table.dataTable thead th{
+    padding: 7px 18px;
+}
+
+table.dataTable tfoot th{
+    padding: 8px 10px;
+}
+
+.commercial-buy h3{
+    font-weight: normal;
+    font-size: 14px;
+    padding: 7px 18px;
+    background-color: #d62526;
+    color: #fff;
+}
+
+.commercial-buy ul{
+    list-style-type: disc;
+    padding-left: 18px;
+    margin-top: 15px;
+}
+
+.commercial-buy ul li{
+    font-weight: normal;
+    color: #d62526;
+    line-height: 1.8;
+}
+
+.commercial-buy ul li span{
+    color: #444;
+}
+
+/* ************ tables end ************ */
+
+/* *************** footer banner start ***** */
+
+.footer-banner-wrap{
+    position: relative;
+}
+
+.footer-banner-wrap .footer-logo-wrap{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
+.footer-banner-wrap .footer-logo-wrap .media-body h1.media-heading {
+    color: #fff;
+    font-size: 32px;
+    display: block;
+    font-weight: bold;
+    margin-top: 70px;
+    line-height: 2;
+    padding-left: 15px;
+}
+
+.footer-banner-wrap .footer-logo-wrap .media-body hr{
+    border: none;
+    border-top: 1px dotted #fff;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 95%;
+    float: left;
+    margin-top: 0;
+    padding-left: 15px;
+}
+
+.footer-logo-wrap p{
+    color: #fff;
+    margin-top: 15px;
+    letter-spacing: 0.8px;
+}
+
+.footer-logo-wrap p strong{
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-logo-wrap p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-logo-wrap p a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ********* footer banner end ********** */
+
+
+/* **************** responsive *************** */
+
+@media only screen and (max-width: 768px) {
+    .section-title h2 {
+        font-size: 22px;
+    }
+    .main-caption h2 {
+        font-size: 20px;
+    }
+    .mobile-top-margin{
+        margin-top: 15px;
+    }
+    .footer-banner-wrap .footer-logo-wrap img{
+        width: 60px;
+    }
+    .footer-banner-wrap .footer-logo-wrap .media-body h1.media-heading {
+        color: #fff;
+        font-size: 18px;
+        display: block;
+        font-weight: bold;
+        margin-top: 0px;
+        line-height: 2;
+        padding-left: 15px;
+    }
+    .partners-logos ul {
+        white-space: nowrap;
+        width: 100%;
+        display: inline;
+    }
+    .partners-logos ul li{
+        vertical-align: middle;
+        padding: 13px;
+        display: inline;
+        float: left;
+        width: 100px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .footer-banner-wrap .footer-logo-wrap img{
+        width: 40px;
+    }
+    .footer-logo-wrap p {
+        margin-top: 0px;
+    }
+    .footer-banner-wrap .footer-logo-wrap .media-body hr {
+        display: none;
+    }
+}
