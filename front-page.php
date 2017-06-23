@@ -17,7 +17,7 @@
                         </div>
                         <div class="media-body">
                             <h1 class="media-heading"><span>Ready.</span><span>Engaged.</span><span>Driven.</span></h1>
-                            <p>&nbsp;</p>
+                            <!-- <p>&nbsp;</p> -->
                             <hr>
                         </div>
                     </div>
@@ -30,7 +30,7 @@
     <div class="row-fluid">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div class="main-caption">
-                <h2>Red Media Sales is a brand new company set up Exclusively to deliver digital TV only commercial solutions to agencies and advertisers looking to reach customers in the new growth market of online SMART/connected TV channel apps.</h2>
+                <h2>Red Media Sales is a brand new company set up exclusively to deliver digital TV only commercial solutions to agencies and advertisers looking to reach customers in the new growth market of online SMART/connected TV channel apps.</h2>
             </div>
         </div>
     </div>
@@ -48,7 +48,7 @@
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mobile-top-margin">
             <div class="main-caption-description">
-                <p>Red Media Sales is the 1st UK company to deliver easy access to this premium content and brand safe content specifically for this market.</p>
+                <p>Red Media Sales is the 1st UK company to deliver easy access to this premium and brand safe content specifically for this market.</p>
             </div>
         </div>
     </div>
@@ -61,6 +61,7 @@
         </div>
     </div> <!-- ehnd of <hr> -->
 
+    <!--
     <div class="row-fluid">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div class="section-title">
@@ -70,9 +71,9 @@
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mobile-top-margin">
             <div class="tv-channel-item">
                 <picture>
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/tv1.png" media="(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx)">
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/tv1.png">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/tv1.png">
+                    <source srcset="<?php // echo get_template_directory_uri(); ?>/images/tv1.png" media="(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx)">
+                    <source srcset="<?php // echo get_template_directory_uri(); ?>/images/tv1.png">
+                    <img class="img-responsive" src="<?php // echo get_template_directory_uri(); ?>/images/tv1.png">
                 </picture>
                 <p><strong>KETCHUP TV</strong> is a Free to air on demand Kids TV channel available on Freeview, Samsung and LG Smart TV's app page and available free to download on mobile/tablet app via the App store and Google play. Ketchup TV is Coppa compliant with easily accessable safe content and has grown to reach 228,000 unique users per month with an average share family viewing audience of 2.7 people per view. Target audiences: Kids 0-5 & HWCH</p>
             </div>
@@ -80,9 +81,9 @@
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mobile-top-margin">
             <div class="tv-channel-item">
                 <picture>
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/tv2.png" media="(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx)">
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/tv2.png">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/tv2.png">
+                    <source srcset="<?php // echo get_template_directory_uri(); ?>/images/tv2.png" media="(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx)">
+                    <source srcset="<?php // echo get_template_directory_uri(); ?>/images/tv2.png">
+                    <img class="img-responsive" src="<?php // echo get_template_directory_uri(); ?>/images/tv2.png">
                 </picture>
                 <p><strong>PLANET KNOWLEDGE</strong> is a Free to air on demand factual documentary TV channel available on Freeview, as a preloaded channel on all of Samsung's new 4K SUHD TV's and on all LG Smart TV's on the app homepage. It is also available FREE to download on the App store and Google play. Over 300 hours of HD premium content documentaries streamed in HD and stunning super UHD across 5 programme icon strands: Nature, History, People and Culture, Travel, Science & Technology. Target audiences: ABC1 Ads & ABC1 Men</p>
             </div>
@@ -90,9 +91,9 @@
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mobile-top-margin">
             <div class="tv-channel-item">
                 <picture>
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/tv3.png" media="(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx)">
-                    <source srcset="<?php echo get_template_directory_uri(); ?>/images/tv3.png">
-                    <img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/tv3.png">
+                    <source srcset="<?php // echo get_template_directory_uri(); ?>/images/tv3.png" media="(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx)">
+                    <source srcset="<?php // echo get_template_directory_uri(); ?>/images/tv3.png">
+                    <img class="img-responsive" src="<?php // echo get_template_directory_uri(); ?>/images/tv3.png">
                 </picture>
                 <p><strong>THE BOLLYWOOD HD MOVIE CHANNEL</strong> is the only Free TV Bollywood channel available 'on demand' on Freeview, Samsung and LG Smart TV's app page and available to download on mobile/tablet app via the App store and Google play. Over 600 hours of the finest Indian and Bollywood movies of all time all in HD. 100% Exclusive content. The sounds and rich culture of India are brought to life across 5 timeless genres of musicals, romance, comedy, dramas and action films. Target audience: HWCH</p>
             </div>
@@ -105,7 +106,29 @@
                 <hr>
             </div>
         </div>
-    </div> <!-- ehnd of <hr> -->
+    </div>
+     -->
+
+    <div class="row-fluid">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="section-title">
+                <h2>Commercial advertiser opportunities across all devices</h2>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+            <div class="devices">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/dev.png" alt="devices" class="img-responsive">
+            </div>
+        </div>
+    </div>
+
+    <div class="row-fluid">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="main-divider">
+                <hr>
+            </div>
+        </div>
+    </div>
 
     <div class="row-fluid">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -152,7 +175,7 @@
                 <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 mobile-top-margin">
                     <div class="tv-channel-item">
                         <h4><img src="<?php echo get_template_directory_uri(); ?>/images/check.png" alt="check"> Demand:</h4>
-                        <p>37% of Smart TV household viewing is now 'on demand'</p>
+                        <p>37% of Smart TV household viewing is now 'on demand'*</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 mobile-top-margin">
@@ -179,6 +202,7 @@
         </div>
     </div> <!-- ehnd of <hr> -->
 
+    <!--
     <div class="row-fluid">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div class="section-title">
@@ -250,7 +274,7 @@
                 <hr>
             </div>
         </div>
-    </div> <!-- ehnd of <hr> -->
+    </div>
 
     <div class="row-fluid">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
@@ -314,7 +338,8 @@
                 <hr>
             </div>
         </div>
-    </div> <!-- ehnd of <hr> -->
+    </div>
+     -->
 
     <div class="row-fluid">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
