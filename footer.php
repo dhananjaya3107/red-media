@@ -23,12 +23,14 @@
                             <div class="col-xs-12 col-sm-2 col-md-1 col-lg-1 no-padding-left mobile-top-margin">
                                 <p><strong>CONTACT: </strong></p>
                             </div>
+                            <!--
                             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3 mobile-top-margin">
                                 <p>John De Napoli</p>
                                 <p>Managing Director</p>
                                 <p>07787 152759</p>
                                 <p><a href="mailto:johnd@redmediasales.co.uk">johnd@redmediasales.co.uk</a></p>
                             </div>
+                            -->
                             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 mobile-top-margin">
                                 <p>David Townend</p>
                                 <p>Sales Director</p>
